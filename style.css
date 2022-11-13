@@ -1,0 +1,50 @@
+.header {
+    /* temp-change */
+    border: 3px solid red;
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+.header-logo,
+.header-links {
+    /* temp-change */;
+    border: 3px solid green;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+ul {
+    /* removing bullets */
+    list-style-type: none;
+
+    /* removing left indent and margins */
+    padding: 0;
+    margin: 0;
+
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    /* removing underline from links */
+    text-decoration: none;
+
+    color: #E5E7EB;
+}
