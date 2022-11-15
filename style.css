@@ -1,6 +1,10 @@
+.body {
+    display: flex;
+}
+
 .header {
     /* temp-change */
-    border: 3px solid red;
+    /* border: 3px solid red; */
 
     display: flex;
     justify-content: space-around;
@@ -10,7 +14,7 @@
 .header-logo,
 .header-links {
     /* temp-change */;
-    border: 3px solid green;
+    /* border: 3px solid green; */
 }
 
 .header-logo {
@@ -47,4 +51,64 @@ a {
     text-decoration: none;
 
     color: #E5E7EB;
+}
+
+.sec1,
+.sec3, 
+.footer {
+    
+    /* temp-change */
+    /* border: 3px solid blueviolet; */
+}
+
+.sec2,
+.sec4 {
+    /* temp-change */
+    /* border: 3px solid red; */
+}
+
+
+.sec1 {
+    display: flex;
+    background-color: #1F2937;
+
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.sec1-text,
+.sec1-img {
+    /* border: 3px solid green; */
+    max-width: 400px;
+    flex: 1;
+}
+
+.sec1-main-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+
+}
+
+.sec1-sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.sec1-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.sec1-img {
+    display: flex;
+    background-color: grey;
+    color: #E5E7EB;
+
+    justify-content: center;
+    align-items: center;
 }
